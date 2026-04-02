@@ -57,12 +57,6 @@ python -m app.main
 - JPG / JPEG
 - TIFF
 
-## 🧪 Data
-
-Test maps can be placed in:
-
-data/test_maps/
-
 ## ⚠️ Status
 
 This is an MVP optimized for:
