@@ -32,8 +32,6 @@ Originally developed for workflows such as GEOCATMIN, it generalizes well to reg
 ## 📦 Installation
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
