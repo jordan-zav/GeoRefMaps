@@ -63,12 +63,6 @@ Test maps can be placed in:
 
 data/test_maps/
 
-Generated outputs should NOT be versioned:
-
-data/evaluation_outputs/
-data/generated/
-exports/
-
 ## ⚠️ Status
 
 This is an MVP optimized for:
