@@ -35,21 +35,31 @@ Originally developed for workflows such as GEOCATMIN, it generalizes well to reg
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-▶️ Run
+```
+
+## ▶️ Run
+
+```powershell
 python -m app.main
-🧭 Spatial Reference Rules
-latitude/longitude → WGS84 (EPSG:4326)
-east/north → WGS84 / UTM
-Supported zones:
-17S → EPSG:32717
-18S → EPSG:32718
-19S → EPSG:32719
-📁 Supported Formats
-PDF
-PNG
-JPG / JPEG
-TIFF
-🧪 Data
+```
+
+## 🧭 Spatial Reference Rules
+
+- latitude/longitude → WGS84 (EPSG:4326)
+- east/north → WGS84 / UTM
+- Supported zones:
+  - 17S → EPSG:32717
+  - 18S → EPSG:32718
+  - 19S → EPSG:32719
+
+## 📁 Supported Formats
+
+- PDF
+- PNG
+- JPG / JPEG
+- TIFF
+
+## 🧪 Data
 
 Test maps can be placed in:
 
@@ -60,22 +70,19 @@ Generated outputs should NOT be versioned:
 data/evaluation_outputs/
 data/generated/
 exports/
-⚠️ Status
+
+## ⚠️ Status
 
 This is an MVP optimized for:
 
-maps with border coordinates
-first page processing
-semi-automatic workflows
-OCR-assisted extraction
-🔄 Reprojection
+- maps with border coordinates
+- first page processing
+- semi-automatic workflows
+- OCR-assisted extraction
+
+## 🔄 Reprojection
 
 Outputs can be exported in:
 
-EPSG:4326
-EPSG:32717 / 32718 / 32719
-🧩 Dependencies
-PyMuPDF
-Pillow
-NumPy
-pytesseract (optional but recommended)
+- EPSG:4326
+- EPSG:32717 / 32718 / 32719
