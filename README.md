@@ -1,3 +1,13 @@
+# ⚖️ Licencia / License (Dual Licensing)
+
+Este proyecto se distribuye bajo un modelo de **Licencia Dual**:
+
+1. **Uso de Código Abierto (GNU GPLv3):** Puedes usar, estudiar, modificar y redistribuir este software de forma gratuita, siempre y cuando cualquier versión modificada o distribución derivada también sea 100% de código abierto bajo la licencia GNU GPLv3.
+2. **Uso Comercial / Privado (Licencia Comercial):** Si deseas integrar este código en software propietario, cerrado o comercial (sin la obligación de abrir tu propio código fuente bajo la GPLv3), debes adquirir una licencia comercial exclusiva. Por favor, ponte en contacto con el autor para acordar los términos.
+
+Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+---
 # GeoRefMaps
 
 MVP tool for semi-automatic georeferencing of geological maps from PDFs and raster images.
