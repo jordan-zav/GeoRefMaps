@@ -1,11 +1,11 @@
 # ⚖️ Licencia / License (Dual Licensing)
 
-Este proyecto se distribuye bajo un modelo de **Licencia Dual**:
+This project is distributed under a **Dual Licensing** model:
 
-1. **Uso de Código Abierto (GNU GPLv3):** Puedes usar, estudiar, modificar y redistribuir este software de forma gratuita, siempre y cuando cualquier versión modificada o distribución derivada también sea 100% de código abierto bajo la licencia GNU GPLv3.
-2. **Uso Comercial / Privado (Licencia Comercial):** Si deseas integrar este código en software propietario, cerrado o comercial (sin la obligación de abrir tu propio código fuente bajo la GPLv3), debes adquirir una licencia comercial exclusiva. Por favor, ponte en contacto con el autor para acordar los términos.
+1. **Open Source Use (GNU GPLv3):** You can use, study, modify, and redistribute this software for free, provided that any modified version or derivative work is also 100% open source under the GNU GPLv3 license.
+2. **Commercial / Private Use (Commercial License):** If you wish to integrate this code into proprietary, closed-source, or commercial software (without the obligation to open your own source code under the GPLv3), you must acquire an exclusive commercial license. Please contact the author to negotiate terms.
 
-Para más detalles, consulta el archivo [LICENSE](LICENSE).
+For more details, see the [LICENSE](LICENSE) file.
 
 ---
 # GeoRefMaps
@@ -82,3 +82,7 @@ Outputs can be exported in:
 
 - EPSG:4326
 - EPSG:32717 / 32718 / 32719
+
+## License
+
+This project is licensed under the GNU GPLv3 and the Dual Licensing agreement described at the beginning of this document. See the [LICENSE](LICENSE) file for more details.
