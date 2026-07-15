@@ -1,4 +1,9 @@
-# ⚖️ Licencia / License (Dual Licensing)
+# GeoRefMaps
+
+MVP tool for semi-automatic georeferencing of geological maps from PDFs and raster images.
+
+
+## ⚖️ License (Dual Licensing)
 
 This project is distributed under a **Dual Licensing** model:
 
@@ -8,9 +13,6 @@ This project is distributed under a **Dual Licensing** model:
 For more details, see the [LICENSE](LICENSE) file.
 
 ---
-# GeoRefMaps
-
-MVP tool for semi-automatic georeferencing of geological maps from PDFs and raster images.
 
 ## 🌍 Overview
 
@@ -85,4 +87,4 @@ Outputs can be exported in:
 
 ## License
 
-This project is licensed under the GNU GPLv3 and the Dual Licensing agreement described at the beginning of this document. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GNU GPLv3 and the Dual Licensing agreement described above. See the [LICENSE](LICENSE) file for more details.
