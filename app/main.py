@@ -341,7 +341,7 @@ class App(tk.Tk):
 
         ttk.Label(
             footer,
-            text="GeoRefMaps | Licencia MIT",
+            text="GeoRefMaps | Licencia GNU GPLv3",
             style="Status.TLabel",
         ).grid(row=0, column=1, sticky="e")
 
