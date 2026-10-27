@@ -1,3 +1,5 @@
+<p align="center"><strong>English</strong> · <a href="README.es.md">Español</a></p>
+
 <div align="center">
   <img src="assets/branding/logo.png" alt="GeoRefMaps" width="112">
 
@@ -22,7 +24,7 @@ controls and export a documented GeoTIFF without hiding CRS assumptions.
 
 ## Workflow at a glance
 
-```text
+~~~text
 PDF page / scanned map / raster image
                   │
                   ▼
@@ -36,7 +38,7 @@ PDF page / scanned map / raster image
                   │
                   ▼
  JSON GCP record ──► georeferenced/reprojected GeoTIFF
-```
+~~~
 
 ## Capabilities
 
@@ -53,10 +55,10 @@ PDF page / scanned map / raster image
 
 ## Supported inputs
 
-- PDF (`.pdf`), currently processing the selected/first page;
-- PNG (`.png`);
-- JPEG (`.jpg`, `.jpeg`); and
-- TIFF (`.tif`, `.tiff`).
+- PDF (<code>.pdf</code>), currently processing the selected/first page;
+- PNG (<code>.png</code>);
+- JPEG (<code>.jpg</code>, <code>.jpeg</code>); and
+- TIFF (<code>.tif</code>, <code>.tiff</code>).
 
 Text-based PDFs are preferred because their labels can be extracted without
 OCR. Scanned figures require a working Tesseract installation and sufficiently
@@ -79,25 +81,25 @@ is not yet generalized in this MVP.
 
 ## Installation
 
-```powershell
+~~~powershell
 git clone https://github.com/jordan-zav/GeoRefMaps.git
 cd GeoRefMaps
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-```
+~~~
 
 Install [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) separately
 when scanned maps need OCR. Vector-text PDF processing does not require it.
 
 ## Run
 
-```powershell
+~~~powershell
 python -m app.main
-```
+~~~
 
-On Windows, `run_georefmaps.bat` provides the same local launcher.
+On Windows, <code>run_georefmaps.bat</code> provides the same local launcher.
 
 ## Operator checklist
 
@@ -125,13 +127,13 @@ warped, rotated irregularly or distorted by scanning.
 
 | Path | Contents |
 | --- | --- |
-| `app/main.py` | Tkinter interface and operator workflow |
-| `app/pdf_processing.py` | PDF/raster loading, rendering and vector-text extraction |
-| `app/ocr.py` | Tesseract discovery and border-focused OCR |
-| `app/detector.py` | Coordinate parsing, candidate scoring and corner matching |
-| `app/export.py` | JSON, GeoTIFF and reprojection output |
-| `app/models.py` | Shared control-point and detection models |
-| `assets/branding` | Project visual identity |
+| <code>app/main.py</code> | Tkinter interface and operator workflow |
+| <code>app/pdf_processing.py</code> | PDF/raster loading, rendering and vector-text extraction |
+| <code>app/ocr.py</code> | Tesseract discovery and border-focused OCR |
+| <code>app/detector.py</code> | Coordinate parsing, candidate scoring and corner matching |
+| <code>app/export.py</code> | JSON, GeoTIFF and reprojection output |
+| <code>app/models.py</code> | Shared control-point and detection models |
+| <code>assets/branding</code> | Project visual identity |
 
 ## Project status
 
